@@ -1,0 +1,135 @@
+package com.demo.common.consts;
+
+/**
+ * Created by wang_haichun on 2016/11/15.
+ */
+public interface NumberConst {
+    public interface IntDef {
+        int INT_N_SIX = -6;
+        int INT_N_THREE = -3;
+        int INT_N_ONE = -1;
+        int INT_N_TWO = -2;
+        int INT_ZERO = 0;
+        int INT_ONE = 1;
+        int INT_TWO = 2;
+        int INT_THREE = 3;
+        int INT_FOUR = 4;
+        int INT_FIVE = 5;
+        int INT_SIX = 6;
+        int INT_SEVEN = 7;
+        int INT_EIGHT = 8;
+        int INT_NINE = 9;
+        int INT_TEN = 10;
+        int INT_ELEVEN = 11;
+        int INT_TWELVE = 12;
+        int INT_THIRTEEN = 13;
+        int INT_FOURTEEN = 14;
+        int INT_FIFTEEN = 15;
+        int INT_SIXTEEN = 16;
+        int INT_SEVENTEEN = 17;
+        int INT_EIGHTEEN = 18;
+        int INT_NINETEEN = 19;
+        int INT_TWENTY = 20;
+        int INT_TWENTY_ONE = 21;
+        int INT_TWENTY_TWO = 22;
+        int INT_TWENTY_THREE = 23;
+        int INT_TWENTY_FOUR = 24;
+        int INT_TWENTY_FIVE = 25;
+        int INT_TWENTY_SIX = 26;
+        int INT_TWENTY_SEVEN = 27;
+        int INT_TWENTY_EIGHT = 28;
+        int INT_TWENTY_NINE = 29;
+        int INT_THIRTY = 30;
+        int INT_THIRTY_ONE = 31;
+        int INT_THIRTY_TWO = 32;
+        int INT_THIRTY_THREE = 33;
+        int INT_THIRTY_FOUR = 34;
+        int INT_THIRTY_FIVE = 35;
+        int INT_THIRTY_SIX = 36;
+        int INT_THIRTY_SEVEN = 37;
+        int INT_THIRTY_EIGTH = 38;
+        int INT_THIRTY_NINE = 39;
+        int INT_FOURTY = 40;
+        int INT_FOURTY_ONE = 41;
+        int INT_FOURTY_TWO = 42;
+        int INT_FOURTYTHREE = 43;
+        int INT_FOURTY_FOUR = 44;
+        int INT_FOURTY_FIVE = 45;
+        int INT_FOURTY_SIX = 46;
+        int INT_FOURTY_SEVEN = 47;
+        int INT_FOURTY_EIGTH = 48;
+        int INT_FOURTY_NINE = 49;
+        int INT_FIFTY = 50;
+        int INT_FIFTY_ONE = 51;
+        int INT_FIFTY_TWO = 52;
+        int INT_FIFTY_THREE = 53;
+        int INT_FIFTY_FOUR = 54;
+        int INT_FIFTY_FIVE = 55;
+        int INT_FIFTY_SIX = 56;
+        int INT_FIFTY_SEVEN = 57;
+        int INT_FIFTYEIGHT = 58;
+        int INT_FIFTYNINE = 59;
+        int INT_SIXTY = 60;
+        int INT_SIXTY_ONE = 61;
+        int INT_SIXTY_TWO = 62;
+        int INT_SIXTYTHREE = 63;
+        int INT_SIXTYFOUR = 64;
+        int INT_SIXTYFIVE = 65;
+        int INT_SIXTYSIX = 66;
+        int INT_SIXTYSEVEN = 67;
+        int INT_SIXTYEIGHT = 68;
+        int INT_SIXTYNINE = 69;
+        int INT_SEVENTY = 70;
+        int INT_SEVENTYONE = 71;
+        int INT_SEVENTYTWO = 72;
+        int INT_SEVENTYTHREE = 73;
+        int INT_SEVENTYFOUR = 74;
+        int INT_SEVENTYFIVE = 75;
+        int INT_SEVENTYSIX = 76;
+        int INT_SEVENTYSEVEN = 77;
+        int INT_SEVENTYEIGHT = 78;
+        int INT_SEVENTYNINE = 79;
+        int INT_EIGHTY = 80;
+        int INT_EIGHTYONE = 81;
+        int INT_EIGHTYTWO = 82;
+        int INT_EIGHTYTHREE = 83;
+        int INT_EIGHTYFOUR = 84;
+        int INT_EIGHTYFIVE = 85;
+        int INT_EIGHTYSIX = 86;
+        int INT_EIGHTYSEVEN = 87;
+        int INT_EIGHTYEIGHT = 88;
+        int INT_EIGHTYNINE = 89;
+        int INT_NINETY = 90;
+        int INT_NINETYONE = 91;
+        int INT_NINETYTWO = 92;
+        int INT_NINETYTHREE = 93;
+        int INT_NINETYFOUR = 94;
+        int INT_NINETYSIX = 96;
+        int INT_TWO_HUNDRED_FIFTY_SIX = 256;
+        int INT_NINETYNINE = 99;
+        int INT_HUNDRED = 100;
+        int INT_TWO_HUNDRED = 200;
+        int INT_ONE_HUNDRED_AND_TWENTY = 120;
+        int INT_ONE_HUNDRED_AND_FIFTY = 150;
+        int INT_ONE_HUNDRED_AND_EIGTHY = 180;
+        int INT_THREE_HUNDRED_AND_SIXTY = 360;
+        int INT_SEVEN_HUNDRED_AND_TWENTY = 720;
+        int INT_THOUSAND = 1000;
+        int INT_TIMESECONDS = 3600;
+        int INT_TIMEOUTS = 6000;
+        int INT_NINE_NINE_NINE_FOR_SQL_IN_LIMIT = 999;
+        int CUSTOMER_AUTO_GROW_COLLECTION_LIMIT = 1024;
+        double DOWN_PRICE = 0.97D;
+        double UP_PRICE = 1.03D;
+    }
+
+    public interface ExcelMaxColumnCount {
+        int EXCEL_2003_MAX_COLUMN_COUNT = 256;
+        int EXCEL_2007_MAX_COLUMN_COUNT = 16384;
+    }
+
+    public interface ExcelMaxRowCount {
+        int EXCEL_2003_MAX_ROW_COUNT = 65536;
+        int EXCEL_2007_MAX_ROW_COUNT = 1048576;
+    }
+}
